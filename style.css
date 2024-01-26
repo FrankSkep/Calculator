@@ -48,7 +48,7 @@ input[type="button"] {
 
 /* Estilo al presionar el botón */
 input[type="button"]:active {
-  transform: scale(0.75);
+  transform: scale(0.88);
 }
 
 input[type="button"]:hover {
