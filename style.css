@@ -1,59 +1,57 @@
 body {
-  background-color: #cacac6d0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 70px;
+  font-size: 3em;
+  color: #333;
   margin-top: 40px;
-  color: rgb(77, 77, 77);
 }
 
 .calculadora {
-  border-style:solid;
-  border-width: 1px;
-  width: 315px;
-  height: 440px;
-  margin: 0 auto;
-  background-color: #a7a7a7;
-  padding: 35px;
+  border: 2px solid #ccc;
   border-radius: 20px;
-  box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 #pantalla {
   width: 90%;
   height: 10%;
   padding: 10px;
-  font-size: 23px;
-  margin-bottom: 60px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
   text-align: right;
   border-radius: 15px;
 }
 
 input[type="button"] {
   width: 70px;
-  height: 40px;
-  margin-right: 5px;
-  margin-bottom: 17px;
-  font-size: 20px;
-  background-color: #f5f5f5;
+  height: 70px;
+  margin: 5px;
+  font-size: 1.2em;
+  background-color: #fff;
   border: none;
-  border-radius: 25px;
+  border-radius: 10px;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: #333;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo al presionar el botón */
 input[type="button"]:active {
-  transform: scale(0.88);
+  transform: scale(0.95);
 }
 
 input[type="button"]:hover {
-  background-color: #7e7e7e;
-  color: rgb(255, 255, 255);
+  background-color: #ddd;
 }
 
 input[type="button"]:last-child {
@@ -65,5 +63,5 @@ footer, b, a {
   text-align: center;
   margin-top: 3%;
   font-family: "Courier New", Courier, monospace;
-  color: rgb(0, 0, 0);
+  color: #333;
 }
